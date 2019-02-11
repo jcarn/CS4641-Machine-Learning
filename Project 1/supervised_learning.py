@@ -378,7 +378,7 @@ knn_param = {
     'weights': ['uniform', 'distance'],
     }
 #grid_search_model(knn_model, singlewine_ds, knn_param, is_multi = False)
-grid_search_model(knn_model, multiwine_ds,knn_param,  is_multi = True)
+#grid_search_model(knn_model, multiwine_ds,knn_param,  is_multi = True)
 #final_run_knn(singlewine_ds, (3, 'distance'), False, 25) 
 #final_run_knn(multiwine_ds, (6, 'distance'), True, 5)
 
