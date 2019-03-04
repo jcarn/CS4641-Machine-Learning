@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db869421-67eb-4289-ba92-949bc02a5c6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../opt/example/SquareNumbersEvaluationFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project2/MaxK2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment01/Boosting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment01/DecisionTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment01/NeuralNetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment01/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment01/SupportVectorMachines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment01/UsefulFunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment01/kNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment01/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment01/rzhade3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/CensusNeuralNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/CensusNeuralNet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/FlipFlopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/FlipFlopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/FourPeaksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/FourPeaksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project2/MaxKColoringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project2/MaxKColoringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/Analysis.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/Analysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/Assignment 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/UsefulFunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/em/winequality-ica-cluster-em.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/em/winequality-pca-cluster-em.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/em/winequality-raw-cluster-em.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/em/winequality-rp-cluster-em.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/em/winequality-rs-cluster-em.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/kMeans/abalone_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/kMeans/winequality-white-ica_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/kMeans/winequality-white-pca_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/kMeans/winequality-white-rp_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/kMeans/winequality-white-rs_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/clusters/kMeans/winequality-white_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/ica/abalone-ica.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/ica/winequality-white-ica.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/raw/abalone.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/datasets/raw/winequality-white.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/neuralNetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/results/AllResults.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment03/rzhade3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment04/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment04/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment04/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment04/Analysis.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment04/Assignment 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment04/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment04/analysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment04/results/results.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment04/rzhade3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assignment04/~$alysis.docx" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plotscores.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1598">
+              <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../../CS4641 Machine Learning/Project 1/my_plots.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/plotscores.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="395" />
+    <option name="y" value="253" />
+    <option name="width" value="1920" />
+    <option name="height" value="1045" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="results" type="b2602c69:ProjectViewProjectNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../CS4641 Machine Learning/Project 1/my_plots.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="plotscores" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="results" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotscores.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.plotscores" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db869421-67eb-4289-ba92-949bc02a5c6d" name="Default Changelist" comment="" />
+      <created>1551478649439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551478649439</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="316" y="203" width="1536" height="836" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949966" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plotscores.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../CS4641 Machine Learning/Project 1/my_plots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

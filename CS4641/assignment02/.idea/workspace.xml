@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="520d9c25-de3f-4158-8c9c-b67d4aad51f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../assignment01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment01/Boosting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment01/DecisionTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment01/NeuralNetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment01/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment01/SupportVectorMachines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment01/UsefulFunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment01/kNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment01/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment01/rzhade3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABAGAIL/src/project2/CensusNeuralNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABAGAIL/src/project2/CensusNeuralNet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/Analysis.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/Analysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/Assignment 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/UsefulFunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/em/winequality-ica-cluster-em.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/em/winequality-pca-cluster-em.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/em/winequality-raw-cluster-em.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/em/winequality-rp-cluster-em.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/em/winequality-rs-cluster-em.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/kMeans/abalone_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/kMeans/winequality-white-ica_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/kMeans/winequality-white-pca_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/kMeans/winequality-white-rp_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/kMeans/winequality-white-rs_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/clusters/kMeans/winequality-white_clusters.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/ica/abalone-ica.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/ica/winequality-white-ica.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/raw/abalone.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/datasets/raw/winequality-white.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/neuralNetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/results/AllResults.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment03/rzhade3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment04/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment04/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment04/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment04/Analysis.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment04/Assignment 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment04/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment04/analysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment04/results/results.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment04/rzhade3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment04/~$alysis.docx" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ABAGAIL/src/project2/CensusNeuralNet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="203" column="9" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ABAGAIL/abagail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ABAGAIL/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ABAGAIL/arguments.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ABAGAIL/rhcResults.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2300" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ABAGAIL/src/project2/CensusNeuralNet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="405" />
+    <option name="y" value="70" />
+    <option name="width" value="1750" />
+    <option name="height" value="1250" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignment02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment02" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="assignment02" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551398245550" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ABAGAIL" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="520d9c25-de3f-4158-8c9c-b67d4aad51f5" name="Default Changelist" comment="" />
+      <created>1551395442323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551395442323</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16733266" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.499001" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.500999" side_tool="true" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4995005" weight="0.32997987" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/data/singlewine-reviews/winequality-red.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/arguments.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/rhcResults.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/src/project2/CensusNeuralNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="203" column="9" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/abagail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABAGAIL/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

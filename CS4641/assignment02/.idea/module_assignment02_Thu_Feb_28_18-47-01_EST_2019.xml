@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_assignment02" default="compile.module.assignment02">
+  <dirname property="module.assignment02.basedir" file="${ant.file.module_assignment02}"/>
+  
+  <property name="module.jdk.home.assignment02" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.assignment02" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.assignment02" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.assignment02" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+  
+  <property name="assignment02.output.dir" value="undefined"/>
+  <property name="assignment02.testoutput.dir" value="undefined"/>
+  
+  <path id="assignment02.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="assignment02.module.production.classpath">
+    <path refid="${module.jdk.classpath.assignment02}"/>
+  </path>
+  
+  <path id="assignment02.runtime.production.module.classpath"/>
+  
+  <path id="assignment02.module.classpath">
+    <path refid="${module.jdk.classpath.assignment02}"/>
+  </path>
+  
+  <path id="assignment02.runtime.module.classpath"/>
+  
+  
+  <patternset id="excluded.from.module.assignment02">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.assignment02">
+    <patternset refid="excluded.from.module.assignment02"/>
+  </patternset>
+  
+  
+  <target name="compile.module.assignment02" depends="compile.module.assignment02.production,compile.module.assignment02.tests" description="Compile module assignment02"/>
+  
+  <target name="compile.module.assignment02.production" depends="register.custom.compilers" description="Compile module assignment02; production classes"/>
+  
+  <target name="compile.module.assignment02.tests" depends="register.custom.compilers,compile.module.assignment02.production" description="compile module assignment02; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.assignment02" description="cleanup module">
+    <delete dir="${assignment02.output.dir}"/>
+    <delete dir="${assignment02.testoutput.dir}"/>
+  </target>
+</project>
