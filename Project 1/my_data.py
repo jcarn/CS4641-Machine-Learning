@@ -5,6 +5,7 @@ Created on Tue Feb  5 20:37:59 2019
 @author: John
 """
 import pandas as pd
+import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer 
 import unicodedata
 from sklearn.model_selection import train_test_split
@@ -54,7 +55,7 @@ def get_multiwine_data():
     winedata = winedata[winedata.variety.str.contains('white') == False]
     winedata = winedata[winedata.variety.str.contains('White') == False]
     #Still, some varities we just don't have enough data for
-    winedata = winedata.groupby('variety').filter(lambda x: len(x) > 1000)    
+    winedata = winedata.groupby('variety').filter(lambda x: len(x) > 1000)   
     return winedata
 
 def get_singlewine_data():
@@ -93,13 +94,29 @@ def ready_multiwine_data(data):
     desc_vect = CountVectorizer(stop_words = stop, min_df = .05, max_df = 0.9, ngram_range = (1, 3))
     cnty_vect = CountVectorizer(stop_words = stop)
 
-    trdesc = desc_vect.fit_transform(X_train.description)
+
+    trdesc = desc_vect.fit_transform(Xd.description)
+#    trdesc = desc_vect.fit_transform(X_train.description)
+    trcnty = cnty_vect.fit_transform(Xd.country)
+    trprice = Xd.price.values[:,None]
+    labels = yd.values[:,None]
+    print(data.variety.shape)
+    print(type(trprice))
+    Xd_dtm = hstack((trdesc, trprice))
+    Xd_df = pd.DataFrame(Xd_dtm.toarray())
+    final_arr = pd.concat([Xd_df,pd.DataFrame(data.country.values[:,None]), pd.DataFrame(data.variety.values[:,None])], axis=1)
+    print(final_arr[0])
+    import arff
+    arff.dump('multiwine.arff', final_arr.values, relation = 'varietal', names=final_arr.columns)
+    final_arr.to_csv(r'C:\Users\John\Documents\CS4641-1\assignment03\datasets\mine\multiwine.csv')
 #    sorted_x = sorted(desc_vect.vocabulary_.items(), key=operator.itemgetter(1))
 #    print(sorted_x)
     #trcnty = X_train.country.values[:,None]
     trcnty = cnty_vect.fit_transform(X_train.country)
     trprice = X_train.price.values[:,None]
     X_train_dtm = hstack((trdesc, trcnty,  trprice))
+    print(type(pd.DataFrame(X_train_dtm.toarray())))
+
 #
 #    print("Train data vectorized")
     tedesc = desc_vect.transform(X_test.description)
@@ -110,6 +127,20 @@ def ready_multiwine_data(data):
     
 #    print(X_train_dtm.shape)
     return X_train_dtm, X_test_dtm, y_train, y_test, wine
+
+def arff_multiwine_data(filename):
+        import arff
+        mw_data = pd.DataFrame(list(arff.load(filename)))
+#        cs = pd.DataFrame(np.array(mw_data)[:, -2])
+        vs = pd.DataFrame(np.array(mw_data)[:, -1])
+        Xd = mw_data.iloc[:, :-1]
+        yd = mw_data.iloc[:, -1]
+        wine = yd.unique().tolist()
+        wine.sort()
+
+        X_train, X_test, y_train, y_test = train_test_split(Xd, yd, random_state=1)
+        return X_train, X_test, y_train, y_test, wine
+
 
 def ready_singlewine_data(data):
     Xd = data.drop(['quality'], axis = 1)

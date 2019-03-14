@@ -28,10 +28,10 @@ import my_plots
 import my_data
 
 
-def grid_search_model(m, data, cvgrid_params, is_multi = True, standardize = False):
+def grid_search_model(m, data, cvgrid_params, is_multi = True, standardize = True):
     if is_multi:
-        X_train, X_test, y_train, y_test, labels = my_data.ready_multiwine_data(data)
-        cv_splits = 2
+        X_train, X_test, y_train, y_test, labels = my_data.arff_multiwine_data("data/proj3/multiwine_kmeans.arff")
+        cv_splits = 3
     else:
         X_train, X_test, y_train, y_test, labels = my_data.ready_singlewine_data(data)
         cv_splits = 5
@@ -152,7 +152,7 @@ def final_run_net(data, model_params, is_multi, cv_splits):
     print()
     
     if is_multi:
-        X_train, X_test, y_train, y_test, labels = my_data.ready_multiwine_data(data)
+        X_train, X_test, y_train, y_test, labels = my_data.arff_multiwine_data("data/proj3/multiwine_EM.arff")
     else:
         X_train, X_test, y_train, y_test, labels = my_data.ready_singlewine_data(data) 
         
@@ -168,22 +168,22 @@ def final_run_net(data, model_params, is_multi, cv_splits):
     
     title = "Neural Net Learning Rate"
     net_model = MLPClassifier(hidden_layer_sizes = model_params[0])
-    my_plots.plot_validation_curve(title, net_model, X_train, y_train, "learning_rate_init", np.logspace(-4, -2, 10))
+#    my_plots.plot_validation_curve(title, net_model, X_train, y_train, "learning_rate_init", np.logspace(-4, -2, 10))
     
     title = "Neural Net Iterations"
     net_model = MLPClassifier(hidden_layer_sizes = model_params[0], learning_rate_init = model_params[1])
-    my_plots.plot_validation_curve(title, net_model, X_train, y_train, "max_iter", [20*i for i in range(1, 10)])
+#    my_plots.plot_validation_curve(title, net_model, X_train, y_train, "max_iter", [20*i for i in range(1, 10)])
     
     net_model = MLPClassifier(hidden_layer_sizes = model_params[0], learning_rate_init = model_params[1])
     
-    title = "Training Set (Neural Net)"
+    title = "EM Neural Net"
     cv = ShuffleSplit(n_splits=cv_splits, test_size=0.2, random_state=0)
-    my_plots.plot_learning_curve(net_model, title, X_train, y_train, ylim=(0.1, 1.01), cv=cv, n_jobs=3)
+    my_plots.plot_learning_curve(net_model, title, X_train, y_train, ylim=(0.01, .6), cv=cv, n_jobs=3)
 #    plt.show()
     
-    title = "Test Set (Neural Net)"
-    cv = ShuffleSplit(n_splits=cv_splits, test_size=0.2, random_state=0)
-    my_plots.plot_learning_curve(net_model, title, X_test, y_test, ylim=(0.1, 1.01), cv=cv, n_jobs=3)
+#    title = "Test Set (Neural Net)"
+#    cv = ShuffleSplit(n_splits=cv_splits, test_size=0.2, random_state=0)
+#    my_plots.plot_learning_curve(net_model, title, X_test, y_test, ylim=(0.1, 1.01), cv=cv, n_jobs=3)
 #    plt.show()
     
     t0 = time.time()
@@ -361,12 +361,12 @@ for i in range(5, 10):
 
 net_param = {
     'hidden_layer_sizes': hidden_layer_params,
-#    'learning_rate_init': np.logspace(-5, -2, 10)
+    'learning_rate_init': np.logspace(-4, -2, 4)
 }
 #grid_search_model(net_model, singlewine_ds, net_param, is_multi = False, standardize = True)
 #grid_search_model(net_model, multiwine_ds,net_param,  is_multi = True, standardize = True)
 #final_run_net(singlewine_ds, ((11, 11), 0.001), False, 5)
-#final_run_net(multiwine_ds, ((20, 20, 20), .0008), True, 5)
+final_run_net(multiwine_ds, ((20, 20, 20, 20), .002), True, 5)
 
 
 ##############################################################################
