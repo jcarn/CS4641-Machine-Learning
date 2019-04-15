@@ -46,11 +46,11 @@ def plot_clusters(title, clusters, y_acc, y_time, ylim=None, err_tit = "Error"):
         plt.ylim(*ylim)
     fig, ax1 = plt.subplots()
     plt.title(title)
-    ax1.set_xlabel("Clusters")
+    ax1.set_xlabel("Iterations")
     ax1.set_ylabel(err_tit)
     ax1.plot
     train_scores_mean = y_acc#np.mean(y_train, axis=0)
-    ax1.plot(clusters, train_scores_mean, ',-', color="r", label="Error")
+    ax1.plot(clusters, train_scores_mean, ',-', color="r", label="Reward")
     plt.grid()
 
     ax2 = ax1.twinx()
@@ -65,7 +65,7 @@ def plot_clusters(title, clusters, y_acc, y_time, ylim=None, err_tit = "Error"):
     # plt.fill_between(iterations, test_scores_mean - test_scores_std,
     #                  test_scores_mean + test_scores_std, alpha=0.1, color="g")
     ax2.plot(clusters, test_scores_mean, ',-', color="g",
-             label="Runtime")
+             label="Steps")
     t = title.replace(" ", "_")
     t = t.replace(",", "")
     t = t.replace(":", "")
@@ -125,5 +125,6 @@ def clusterplot(title, filename, err_tit = "Error"):
 
 # clusterplot("K-Means Big-Set", "./results/kmeansmulti.csv")
 # clusterplot("EM Big-Set", "./results/emmulti.csv", err_tit = "Log-Likelihood")
-clusterplot("K-Means Small-Set", "./results/kmeanssingle.csv", err_tit = "Log-Likelihood")
-clusterplot("EM Small-Set", "./results/emsingle.csv", err_tit = "Error (SSE)")
+#clusterplot("K-Means Small-Set", "./results/kmeanssingle.csv", err_tit = "Log-Likelihood")
+#clusterplot("EM Small-Set", "./results/emsingle.csv", err_tit = "Error (SSE)")
+clusterplot("Maze Grid VI", "./results/emsingle.csv", err_tit = "Error (SSE)")
